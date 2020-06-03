@@ -1,0 +1,177 @@
+forked codepen URL --> https://codepen.io/codecub85/pen/LYGYPmO
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        HTML that gives meaning to content
+
+    2. What is HTML used for? 
+        Website structure
+
+    3. What is an attribute and where do we put it? 
+        Adds elements such as links inside an opening tag
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        Used to define main title of a page and should only be used once per page.
+
+    5. Name two tags that have required attributes
+        <img> & <link>
+
+    6. What do we put in the head of our HTML document? 
+        <meta>,<title>, & <link> tags
+
+    7. What is an id? 
+        gives an element a unique id.
+
+    8. What elements can I add an id to? 
+        Any
+
+    9. How many times can I use the same id on a page? 
+        Once
+
+    10. What is a class? 
+        A name given to an element
+
+    11. What elements can I add a class to? 
+        all
+
+    12. How many times can I use the same class on a page? 
+        As many as I want
+
+    13. How do I get my link to open in a new tab?
+        target="_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+        Discribes what's happening in the image
+
+    15. How do I reference an id?
+        #
+
+    16. What is the difference between a section and a div
+        <div> is a container for individual elements. <sections> can contain multiple divs and controls a larger block of elements like the header and footer
+    17. What is CSS used for? 
+        Styles the page
+
+    18. How do we select an element? Example - every h2 on the page
+        h2 {
+
+        }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        id identefies one specific element where as a class can identefy multiple elements.
+
+        An <id> would be used of a very important element on a page 
+        a <class> can be used to style multple things like <p> and Titles 
+
+    20. How do we select classes in CSS?
+        .example {
+
+        }
+
+    21. How do we select a p element with a single class of “human””?
+        .human p {
+
+        }
+
+    22. What is a parent child selector? When would this be useful? 
+        A parent child selector selects slements leading to a specific parent.
+        when you want to select a specific element 
+
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar div li {
+
+        }
+
+    24. What is a pseudo selector?
+        keyword to add a special state to an element 
+
+    25. What do we use the change the spacing between lines?
+        line-height
+
+    26. What do we use to change the spacing between letters?
+        letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase
+
+    28. How do I add a 1px border around my div that is dotted and black?
+        div {
+            border: 1px dotted black;
+        }
+
+    29. How do I select everything on the page? 
+        * {
+
+        }
+
+    30. How do I write a comment in CSS?
+        /* like this */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm <filename>
+        There is no warning and the file is lost forever
+
+    34. Why should I use version control? 
+        Keeps from breaking master code and keeps everyone informed of changes made to code
+
+    35. How often should I commit to github?
+        Any major changes or every 20 minutes    
+
+    36. What is the command we would use to push our repo up to github? 
+        git push -u
+
+    37. Walk me through Lambda's git flow. 
+    
+            Fork
+            Create own version of the REPO
+            Make sure that you have forked it correctly and its not reflecting the original repository
+            Collaborate
+            Add TL as a collaborator
+            Go to settings
+            Hit collaborator
+            Add TL
+            Clone Repo
+            Copy Url
+            go to GIT
+            git clone https://blablabla
+            Make A Branch on Fork
+            Label “firstName-lastName”
+            git checkout -b ‘Orlando-Davila’
+            git branch
+            to make sure branch is created properly
+            git add . git commit.
+            git push origin Orlando-Davila
+            Submit Pull Request
+            Click on base fork
+            Click on the branch that you created
+            This only compares it to your fork
+            Your fork is the base fork for this project submission
+            Open pull request
+            ADD TL as a reviewer
+            Once TL accepts changes
+            Project is ready for submission
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        an inline element affects just 1 line of code where as a block element controls multiple lines of code
+
+    2. What happens when an element is positioned absolutely? 
+        it is styled based on the computed position of its reletive value
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        use the box model 
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        block- <p>, <main>, <h1>
+        inline- <a>, <br>
+        inline-block- display: inline-block
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        consisting of margin, padding, boarder the box model is used to move content and give it space within CSS. for the "fix" of the box model one would give the attribute a 
+        height and a width. 

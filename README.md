@@ -37,14 +37,26 @@ Stretch Review questions:
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
+
+    
 Stretch Git Tasks
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
   - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+          Merge conflicts can be resolved with proper communication both in (eg. comments) and out of the code. Also 
+          the PM can review and remove confliting files. 
+
   - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
+        The git 'pull' command is a combination of git fetch which fetches the recent commits in the local repository and git merge
+        In Git, the 'rebase' command integrates changes from one branch into another. It is an alternative to the better known "merge" command.
+        The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+
   - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+        Git 'reset' is the equivilent to git restore, it points your local environment back to a previous commit
+        Where the reset command moves the branch pointer back in the chain to "undo" changes, the 'revert' command adds a new commit at the end of the chain to "cancel" changes.
+-       git 'clean' works as a type of undo command
 
-- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
-
+ [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+      Was told not to to this via Brit Hemming
 - [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
-
+       Was told not to to this via Brit Hemming
 
